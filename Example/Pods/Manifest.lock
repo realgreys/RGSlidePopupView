@@ -1,0 +1,16 @@
+PODS:
+  - RGSlidePopupView (0.1.0)
+
+DEPENDENCIES:
+  - RGSlidePopupView (from `../`)
+
+EXTERNAL SOURCES:
+  RGSlidePopupView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RGSlidePopupView: f4f5d55e06155eb04265098444255408ae67f6df
+
+PODFILE CHECKSUM: cd68ac1ca3201055a286fc685296a4981e6c43ff
+
+COCOAPODS: 1.0.0

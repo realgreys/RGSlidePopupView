@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CC428B55B6F1846213947A4C9A5F0B0 /* Pods-RGSlidePopupView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0258E41D1F29CDEDB36070FCC40389D1 /* Pods-RGSlidePopupView_Example-dummy.m */; };
+		2BEC3532C1796B975F7DC6ED8311EC80 /* RGSlidePopupView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10F26CA9D36B46368E2BB33419785928 /* RGSlidePopupView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4968B5564C108E8B8BF5A26C4B9DD6C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7C7A5C96C4822561565BD601E942A8A2 /* Pods-RGSlidePopupView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 726AA559BA15C9B57A4EA2F9CD452FCB /* Pods-RGSlidePopupView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC08B89041ADD391546A8EA24250081 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		C71C5C773443BE3B63DCE33BA84AE548 /* RGSlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD2B6780540122AB03222D002497F67 /* RGSlideViewController.swift */; };
+		DB7814985A6BD4647CB01B158E500056 /* RGSlidePopupView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F6FD5267E0DBBE715193FDF566FE0B /* RGSlidePopupView-dummy.m */; };
+		DBA760EA3EA2FA3570B494FB8F914F52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		EBEDED37F5300043C33779DB825D0617 /* RGSlideOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F51542051904E0F2A7534F2CED9F8B2 /* RGSlideOptions.swift */; };
+		EE5D93927F47FD6E1E2DF5FA7E9EF4FB /* Pods-RGSlidePopupView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABF77E1424524E19FBAFE25A29699D5 /* Pods-RGSlidePopupView_Tests-dummy.m */; };
+		FEFB93283703B26BB8FEBDCA43044CCF /* Pods-RGSlidePopupView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 691CE8EDD475A14A9C3A3A66551F45FF /* Pods-RGSlidePopupView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDACA9348ED313C9CE52BC3C022CB207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A83FE8D07948F61F233018B2968A59BB;
+			remoteInfo = RGSlidePopupView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01EE80625E68B18B484A6DB2662B3FD1 /* Pods-RGSlidePopupView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RGSlidePopupView_Example.modulemap"; sourceTree = "<group>"; };
+		0258E41D1F29CDEDB36070FCC40389D1 /* Pods-RGSlidePopupView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RGSlidePopupView_Example-dummy.m"; sourceTree = "<group>"; };
+		040EF07B7EF15A7A65F7732E4EB2FA74 /* Pods-RGSlidePopupView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RGSlidePopupView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		10F26CA9D36B46368E2BB33419785928 /* RGSlidePopupView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RGSlidePopupView-umbrella.h"; sourceTree = "<group>"; };
+		14CBDFE8761DA655E46852B2AB353409 /* Pods-RGSlidePopupView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RGSlidePopupView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		20C34EE07399FDFD4EE3C2E429FB7F84 /* Pods_RGSlidePopupView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RGSlidePopupView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2402C6CF7B02D03E72E0C0E08EC81605 /* Pods_RGSlidePopupView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RGSlidePopupView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2443072B666A42D6A3DD580F5038E366 /* Pods-RGSlidePopupView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RGSlidePopupView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2D2BDFEC6F38EBDABBD43C09F03DAF91 /* Pods-RGSlidePopupView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RGSlidePopupView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3DEB0376D2AABC15348B36EE27C72400 /* Pods-RGSlidePopupView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RGSlidePopupView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4BD2B6780540122AB03222D002497F67 /* RGSlideViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RGSlideViewController.swift; sourceTree = "<group>"; };
+		548514379B7A06AF453E74BF5E04B361 /* RGSlidePopupView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RGSlidePopupView.xcconfig; sourceTree = "<group>"; };
+		56023003638D84A3AA9C1254D11426C3 /* Pods-RGSlidePopupView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RGSlidePopupView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		58E555A84648F24AA09434CC9244007F /* Pods-RGSlidePopupView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RGSlidePopupView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		691CE8EDD475A14A9C3A3A66551F45FF /* Pods-RGSlidePopupView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RGSlidePopupView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6BB759E6984F651E24F3BB47C48C80BC /* RGSlidePopupView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RGSlidePopupView-prefix.pch"; sourceTree = "<group>"; };
+		6C18365631963F31E3FAE8DF8597CF5D /* Pods-RGSlidePopupView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RGSlidePopupView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		726AA559BA15C9B57A4EA2F9CD452FCB /* Pods-RGSlidePopupView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RGSlidePopupView_Example-umbrella.h"; sourceTree = "<group>"; };
+		7621DA310039024F1E98B199947CF613 /* RGSlidePopupView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RGSlidePopupView.modulemap; sourceTree = "<group>"; };
+		87D86B06BA9EF59E28EC27E8448AF099 /* Pods-RGSlidePopupView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RGSlidePopupView_Tests-resources.sh"; sourceTree = "<group>"; };
+		88825F4DF43FF1F41E17B64C966B6237 /* Pods-RGSlidePopupView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RGSlidePopupView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8F51542051904E0F2A7534F2CED9F8B2 /* RGSlideOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RGSlideOptions.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ABF77E1424524E19FBAFE25A29699D5 /* Pods-RGSlidePopupView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RGSlidePopupView_Tests-dummy.m"; sourceTree = "<group>"; };
+		A0F6FD5267E0DBBE715193FDF566FE0B /* RGSlidePopupView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RGSlidePopupView-dummy.m"; sourceTree = "<group>"; };
+		A634FC205FB6019A4550724000F10E42 /* RGSlidePopupView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RGSlidePopupView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4855A5C88C8AA944B3BBF9A0AC475B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBAAD15420BA4C5C48BBF7B6E2DB80CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC5ED7B9AEF56D9AB701AAEB4159BB5D /* Pods-RGSlidePopupView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RGSlidePopupView_Example-resources.sh"; sourceTree = "<group>"; };
+		CDF76A8612CE4D8AFE37E6026C30D4A2 /* Pods-RGSlidePopupView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RGSlidePopupView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DB8D979F7E58B6A95DF4A8A35C681216 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F160C9A47067EE5F4F29E552241695 /* Pods-RGSlidePopupView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RGSlidePopupView_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0AF97A38E9A8B72D4F8DB7234CC0E25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4968B5564C108E8B8BF5A26C4B9DD6C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB95B3A391FF711C9B7F24E6D3B50EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC08B89041ADD391546A8EA24250081 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBED9370BC2D4B4406A1E3D3F90CED2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA760EA3EA2FA3570B494FB8F914F52 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13669742EFDA15B7FD4B011F05786908 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				31D27ADE498CD0621CCF9BB12E8129A2 /* Pods-RGSlidePopupView_Example */,
+				4B42CEA83D72EFAF7DC6976247AA065F /* Pods-RGSlidePopupView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		31D27ADE498CD0621CCF9BB12E8129A2 /* Pods-RGSlidePopupView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CBAAD15420BA4C5C48BBF7B6E2DB80CA /* Info.plist */,
+				01EE80625E68B18B484A6DB2662B3FD1 /* Pods-RGSlidePopupView_Example.modulemap */,
+				2D2BDFEC6F38EBDABBD43C09F03DAF91 /* Pods-RGSlidePopupView_Example-acknowledgements.markdown */,
+				14CBDFE8761DA655E46852B2AB353409 /* Pods-RGSlidePopupView_Example-acknowledgements.plist */,
+				0258E41D1F29CDEDB36070FCC40389D1 /* Pods-RGSlidePopupView_Example-dummy.m */,
+				88825F4DF43FF1F41E17B64C966B6237 /* Pods-RGSlidePopupView_Example-frameworks.sh */,
+				CC5ED7B9AEF56D9AB701AAEB4159BB5D /* Pods-RGSlidePopupView_Example-resources.sh */,
+				726AA559BA15C9B57A4EA2F9CD452FCB /* Pods-RGSlidePopupView_Example-umbrella.h */,
+				040EF07B7EF15A7A65F7732E4EB2FA74 /* Pods-RGSlidePopupView_Example.debug.xcconfig */,
+				58E555A84648F24AA09434CC9244007F /* Pods-RGSlidePopupView_Example.release.xcconfig */,
+			);
+			name = "Pods-RGSlidePopupView_Example";
+			path = "Target Support Files/Pods-RGSlidePopupView_Example";
+			sourceTree = "<group>";
+		};
+		37B3C0B196FC053054CEE1CE59EB75DB /* RGSlidePopupView */ = {
+			isa = PBXGroup;
+			children = (
+				4472C8F37F6FD95CF4C2A55AEA7CA35D /* Classes */,
+			);
+			path = RGSlidePopupView;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4472C8F37F6FD95CF4C2A55AEA7CA35D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8F51542051904E0F2A7534F2CED9F8B2 /* RGSlideOptions.swift */,
+				4BD2B6780540122AB03222D002497F67 /* RGSlideViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4B42CEA83D72EFAF7DC6976247AA065F /* Pods-RGSlidePopupView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DB8D979F7E58B6A95DF4A8A35C681216 /* Info.plist */,
+				F4F160C9A47067EE5F4F29E552241695 /* Pods-RGSlidePopupView_Tests.modulemap */,
+				6C18365631963F31E3FAE8DF8597CF5D /* Pods-RGSlidePopupView_Tests-acknowledgements.markdown */,
+				3DEB0376D2AABC15348B36EE27C72400 /* Pods-RGSlidePopupView_Tests-acknowledgements.plist */,
+				9ABF77E1424524E19FBAFE25A29699D5 /* Pods-RGSlidePopupView_Tests-dummy.m */,
+				CDF76A8612CE4D8AFE37E6026C30D4A2 /* Pods-RGSlidePopupView_Tests-frameworks.sh */,
+				87D86B06BA9EF59E28EC27E8448AF099 /* Pods-RGSlidePopupView_Tests-resources.sh */,
+				691CE8EDD475A14A9C3A3A66551F45FF /* Pods-RGSlidePopupView_Tests-umbrella.h */,
+				56023003638D84A3AA9C1254D11426C3 /* Pods-RGSlidePopupView_Tests.debug.xcconfig */,
+				2443072B666A42D6A3DD580F5038E366 /* Pods-RGSlidePopupView_Tests.release.xcconfig */,
+			);
+			name = "Pods-RGSlidePopupView_Tests";
+			path = "Target Support Files/Pods-RGSlidePopupView_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8960CD49986BB71341EB9D36E0DEB79E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F7284E00E6CB1753EBE8D2176CD76949 /* Products */,
+				13669742EFDA15B7FD4B011F05786908 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8960CD49986BB71341EB9D36E0DEB79E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAA13F0C727DFE2A01758A091B0470B7 /* RGSlidePopupView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E81661E8D462BF378CBB74D289CE3BD2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA4855A5C88C8AA944B3BBF9A0AC475B /* Info.plist */,
+				7621DA310039024F1E98B199947CF613 /* RGSlidePopupView.modulemap */,
+				548514379B7A06AF453E74BF5E04B361 /* RGSlidePopupView.xcconfig */,
+				A0F6FD5267E0DBBE715193FDF566FE0B /* RGSlidePopupView-dummy.m */,
+				6BB759E6984F651E24F3BB47C48C80BC /* RGSlidePopupView-prefix.pch */,
+				10F26CA9D36B46368E2BB33419785928 /* RGSlidePopupView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RGSlidePopupView";
+			sourceTree = "<group>";
+		};
+		F7284E00E6CB1753EBE8D2176CD76949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20C34EE07399FDFD4EE3C2E429FB7F84 /* Pods_RGSlidePopupView_Example.framework */,
+				2402C6CF7B02D03E72E0C0E08EC81605 /* Pods_RGSlidePopupView_Tests.framework */,
+				A634FC205FB6019A4550724000F10E42 /* RGSlidePopupView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA13F0C727DFE2A01758A091B0470B7 /* RGSlidePopupView */ = {
+			isa = PBXGroup;
+			children = (
+				37B3C0B196FC053054CEE1CE59EB75DB /* RGSlidePopupView */,
+				E81661E8D462BF378CBB74D289CE3BD2 /* Support Files */,
+			);
+			name = RGSlidePopupView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01841CC4C41BAA704504B0CB8D0B053D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C7A5C96C4822561565BD601E942A8A2 /* Pods-RGSlidePopupView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DEDB03F8A483B31781F79428AE4F096 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFB93283703B26BB8FEBDCA43044CCF /* Pods-RGSlidePopupView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99BED0FF75F73E0CB3B447D7E0FE0EEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BEC3532C1796B975F7DC6ED8311EC80 /* RGSlidePopupView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		57825E0320F2BD62E1E90168E869C5A3 /* Pods-RGSlidePopupView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB79CA18318E36CA73ADAE3B47088684 /* Build configuration list for PBXNativeTarget "Pods-RGSlidePopupView_Example" */;
+			buildPhases = (
+				DA69702F8C3876FEDC61C068A2C4D4BB /* Sources */,
+				FBED9370BC2D4B4406A1E3D3F90CED2F /* Frameworks */,
+				01841CC4C41BAA704504B0CB8D0B053D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23EB0A7F32AD234EC9575273A717F93F /* PBXTargetDependency */,
+			);
+			name = "Pods-RGSlidePopupView_Example";
+			productName = "Pods-RGSlidePopupView_Example";
+			productReference = 20C34EE07399FDFD4EE3C2E429FB7F84 /* Pods_RGSlidePopupView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A83FE8D07948F61F233018B2968A59BB /* RGSlidePopupView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 130C211AF7A42098B469A12369770F57 /* Build configuration list for PBXNativeTarget "RGSlidePopupView" */;
+			buildPhases = (
+				000237BD6CFFED3570156EA4F90CE15F /* Sources */,
+				C0AF97A38E9A8B72D4F8DB7234CC0E25 /* Frameworks */,
+				99BED0FF75F73E0CB3B447D7E0FE0EEF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RGSlidePopupView;
+			productName = RGSlidePopupView;
+			productReference = A634FC205FB6019A4550724000F10E42 /* RGSlidePopupView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9750876E79D37B7EC2DFFC876662203 /* Pods-RGSlidePopupView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 744B39E79C6D39675F10BBD87A88A13D /* Build configuration list for PBXNativeTarget "Pods-RGSlidePopupView_Tests" */;
+			buildPhases = (
+				F6811F7F4BC41A9C771BD1F3F68CF50A /* Sources */,
+				CB95B3A391FF711C9B7F24E6D3B50EFD /* Frameworks */,
+				5DEDB03F8A483B31781F79428AE4F096 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RGSlidePopupView_Tests";
+			productName = "Pods-RGSlidePopupView_Tests";
+			productReference = 2402C6CF7B02D03E72E0C0E08EC81605 /* Pods_RGSlidePopupView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F7284E00E6CB1753EBE8D2176CD76949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57825E0320F2BD62E1E90168E869C5A3 /* Pods-RGSlidePopupView_Example */,
+				B9750876E79D37B7EC2DFFC876662203 /* Pods-RGSlidePopupView_Tests */,
+				A83FE8D07948F61F233018B2968A59BB /* RGSlidePopupView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000237BD6CFFED3570156EA4F90CE15F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEDED37F5300043C33779DB825D0617 /* RGSlideOptions.swift in Sources */,
+				DB7814985A6BD4647CB01B158E500056 /* RGSlidePopupView-dummy.m in Sources */,
+				C71C5C773443BE3B63DCE33BA84AE548 /* RGSlideViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA69702F8C3876FEDC61C068A2C4D4BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC428B55B6F1846213947A4C9A5F0B0 /* Pods-RGSlidePopupView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6811F7F4BC41A9C771BD1F3F68CF50A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5D93927F47FD6E1E2DF5FA7E9EF4FB /* Pods-RGSlidePopupView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23EB0A7F32AD234EC9575273A717F93F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RGSlidePopupView;
+			target = A83FE8D07948F61F233018B2968A59BB /* RGSlidePopupView */;
+			targetProxy = DDACA9348ED313C9CE52BC3C022CB207 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0264778D82D3FBD8FD1DC614811338B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 548514379B7A06AF453E74BF5E04B361 /* RGSlidePopupView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RGSlidePopupView/RGSlidePopupView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RGSlidePopupView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RGSlidePopupView/RGSlidePopupView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RGSlidePopupView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		374C5D75ECBCF28D7CD22F205BD2F457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56023003638D84A3AA9C1254D11426C3 /* Pods-RGSlidePopupView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RGSlidePopupView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RGSlidePopupView_Tests/Pods-RGSlidePopupView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RGSlidePopupView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6EB6232D03268AD5686D7F87E6AD510D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 040EF07B7EF15A7A65F7732E4EB2FA74 /* Pods-RGSlidePopupView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RGSlidePopupView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RGSlidePopupView_Example/Pods-RGSlidePopupView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RGSlidePopupView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		70FE1CBC4B4B2A9BE451BA0E2B73F083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58E555A84648F24AA09434CC9244007F /* Pods-RGSlidePopupView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RGSlidePopupView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RGSlidePopupView_Example/Pods-RGSlidePopupView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RGSlidePopupView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB18E3AF597A91CA0A0C3E2AD1915057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2443072B666A42D6A3DD580F5038E366 /* Pods-RGSlidePopupView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RGSlidePopupView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RGSlidePopupView_Tests/Pods-RGSlidePopupView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RGSlidePopupView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB462D8178D23710825FE52B92A325A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 548514379B7A06AF453E74BF5E04B361 /* RGSlidePopupView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RGSlidePopupView/RGSlidePopupView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RGSlidePopupView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RGSlidePopupView/RGSlidePopupView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RGSlidePopupView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		130C211AF7A42098B469A12369770F57 /* Build configuration list for PBXNativeTarget "RGSlidePopupView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0264778D82D3FBD8FD1DC614811338B0 /* Debug */,
+				BB462D8178D23710825FE52B92A325A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		744B39E79C6D39675F10BBD87A88A13D /* Build configuration list for PBXNativeTarget "Pods-RGSlidePopupView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				374C5D75ECBCF28D7CD22F205BD2F457 /* Debug */,
+				BB18E3AF597A91CA0A0C3E2AD1915057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB79CA18318E36CA73ADAE3B47088684 /* Build configuration list for PBXNativeTarget "Pods-RGSlidePopupView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB6232D03268AD5686D7F87E6AD510D /* Debug */,
+				70FE1CBC4B4B2A9BE451BA0E2B73F083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

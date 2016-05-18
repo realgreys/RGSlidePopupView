@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RGSlidePopupView_Example' do
+  pod 'RGSlidePopupView', :path => '../'
+
+  target 'RGSlidePopupView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

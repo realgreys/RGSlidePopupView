@@ -1,0 +1,6 @@
+framework module RGSlidePopupView {
+  umbrella header "RGSlidePopupView-umbrella.h"
+
+  export *
+  module * { export * }
+}
