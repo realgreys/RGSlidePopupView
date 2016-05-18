@@ -9,6 +9,8 @@ iOS Slide Popup view with swipe animation to the bottom.
 
 Popup view which looks like iOS UIActionSheet.
 
+![Preview](https://github.com/realgreys/RGSlidePopupView/preview.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
